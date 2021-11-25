@@ -5,6 +5,8 @@ import Footer from "./components/footer/Footer";
 import Login from "./components/pages/Login";
 import Home from "./components/pages/Home";
 import Registrarse from "./components/pages/Registrarse";
+import Qr from "./components/pages/bvpQr";
+import QrForm from "./components/pages/bvpQrForm";
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/Registrarse" element={<Registrarse />} />
+        <Route path="/qr" element={<Qr />} />
+        <Route path="/qrForm" element={<QrForm />} />
       </Routes>
       <Footer />
     </Router>
