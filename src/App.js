@@ -7,6 +7,9 @@ import Home from "./components/pages/Home";
 import Registrarse from "./components/pages/Registrarse";
 import Qr from "./components/pages/bvpQr";
 import QrForm from "./components/pages/bvpQrForm";
+import BuiTrans from "./components/pages/buiTransferir";
+import BuiCan from "./components/pages/buiCancelar";
+import BuiRes from "./components/pages/buiResponder";
 
 const App = () => {
   return (
@@ -18,6 +21,9 @@ const App = () => {
         <Route path="/Registrarse" element={<Registrarse />} />
         <Route path="/qr" element={<Qr />} />
         <Route path="/qrForm" element={<QrForm />} />
+        <Route path="/buiTransferir" element={<BuiTrans />} />
+        <Route path="/buiCambiarEstado" element={<BuiCan />} />
+        <Route path="/buiResponder" element={<BuiRes />} />
       </Routes>
       <Footer />
     </Router>
